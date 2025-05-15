@@ -1,0 +1,21 @@
+📦 nextjs-app
+ ┣ 📂 public → Archivos estáticos (favicon, imágenes)
+ ┣ 📂 src
+ ┃ ┣ 📂 components → Componentes reutilizables (Botones, Formularios, etc.)
+ ┃ ┣ 📂 pages → Rutas de la aplicación (Next.js usa `pages/` para el enrutamiento)
+ ┃ ┣ 📂 services → Llamadas a APIs externas (microservicios)
+ ┃ ┃ ┗ 📜 authService.js → Manejo de autenticación
+ ┃ ┃ ┗ 📜 userService.js → Manejo de usuarios
+ ┃ ┣ 📂 middleware → Middleware para proteger rutas
+ ┃ ┃ ┗ 📜 authMiddleware.js → Middleware de autenticación
+ ┃ ┣ 📂 store → Gestión de estado (Redux, Zustand, etc.)
+ ┃ ┣ 📂 utils → Funciones auxiliares (helpers, validaciones)
+ ┃ ┣ 📂 hooks → Custom Hooks para lógica reutilizable
+ ┃ ┣ 📂 config → Variables de entorno y configuración
+ ┃ ┣ 📜 app.js → Configuración global de la aplicación
+ ┃ ┣ 📜 _app.js → Punto de entrada de Next.js
+ ┃ ┣ 📜 _document.js → Configuración del documento HTML
+ ┣ 📜 package.json → Dependencias y scripts
+ ┣ 📜 next.config.js → Configuración de Next.js
+ ┣ 📜 .env → Variables de entorno
+ ┣ 📜 .gitignore → Archivos ignorados por Git
