@@ -1,8 +1,9 @@
+import Register from '../../../components/auth/retgister'
 
 export default function register(){
     return (
         <div>
-            hola mundo desde register
+            <Register></Register>
         </div>
     )
 }
